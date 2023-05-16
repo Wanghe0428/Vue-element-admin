@@ -1,13 +1,7 @@
 <template>
   <div class="app-container">
-    <aside>
-      The guide page is useful for some people who entered the project for the first time. You can briefly introduce the
-      features of the project. Demo is based on
-      <a href="https://github.com/kamranahmedse/driver.js" target="_blank">driver.js.</a>
-    </aside>
-    <el-button icon="el-icon-question" type="primary" @click.prevent.stop="guide">
-      Show Guide
-    </el-button>
+
+    <img src="https://img0.baidu.com/it/u=4162443464,2854908495&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1684342800&t=84d3a38704082e76c2b0485b7037b03a" alt="">
   </div>
 </template>
 
@@ -24,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    this.driver = new Driver()
+    // this.driver = new Driver()
   },
   methods: {
     guide() {
